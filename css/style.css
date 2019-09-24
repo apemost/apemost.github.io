@@ -817,7 +817,7 @@ a.article-title:hover,
   background: #23241f;
   padding: 15px 0;
   overflow: auto;
-  color: #fff;
+  color: #c5c8c6;
   line-height: 22.4px;
 }
 .article-entry .highlight .gutter pre,
@@ -831,7 +831,7 @@ a.article-title:hover,
     monospace, "Noto Serif SC";
 }
 .article-entry code {
-  background: #f2f2f2;
+  background-color: #e5e5e5;
   padding: 0 0.3em;
 }
 .article-entry pre {
@@ -1069,7 +1069,6 @@ pre .php .xml {
   margin-left: 24px;
 }
 .layout-wrap-inner li:before {
-  content: ">";
   float: left;
   padding: 0 16px 0 0;
 }
@@ -1082,6 +1081,26 @@ pre .php .xml {
 }
 .layout-wrap-inner .category-list-count:after {
   content: ")";
+}
+.tag-cloud:before,
+.tag-cloud:after {
+  content: "";
+  display: table;
+}
+.tag-cloud:after {
+  clear: both;
+}
+.tag-cloud {
+  margin-left: 5px;
+  border-left: 1px solid #ddd;
+}
+.tag-cloud-inner {
+  padding: 5px 10px 5px 12px;
+  margin: 5px 0 5px -2px;
+  border-left: 3px solid transparent;
+}
+.tag-cloud-inner:hover {
+  border-left-color: #000;
 }
 .tag-cloud a {
   margin-right: 8px;
