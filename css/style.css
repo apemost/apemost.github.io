@@ -64,6 +64,9 @@ td {
   font-family: inherit;
   font-size: 100%;
   vertical-align: baseline;
+}
+html,
+body {
   background-color: #f5f5f0;
 }
 body {
@@ -105,7 +108,12 @@ button::-moz-focus-inner {
   font-style: normal;
   font-weight: normal;
   src: url("fonts/fontawesome-webfont.eot?v=#4.0.3");
-  src: url("fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=#4.0.3") format("woff"), url("fonts/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"), url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3") format("svg");
+  src: url("fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3")
+      format("embedded-opentype"),
+    url("fonts/fontawesome-webfont.woff?v=#4.0.3") format("woff"),
+    url("fonts/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"),
+    url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3")
+      format("svg");
 }
 html,
 body,
@@ -819,7 +827,8 @@ a.article-title:hover,
 }
 .article-entry pre,
 .article-entry code {
-  font-family: "Source Code Pro", Hack, Consolas, Monaco, Menlo, Consolas, monospace, "Noto Serif SC";
+  font-family: "Source Code Pro", Hack, Consolas, Monaco, Menlo, Consolas,
+    monospace, "Noto Serif SC";
 }
 .article-entry code {
   background: #f2f2f2;
@@ -878,7 +887,8 @@ a.article-title:hover,
 }
 .article-entry .gist .gist-file {
   border: none;
-  font-family: "Source Code Pro", Hack, Consolas, Monaco, Menlo, Consolas, monospace, "Noto Serif SC";
+  font-family: "Source Code Pro", Hack, Consolas, Monaco, Menlo, Consolas,
+    monospace, "Noto Serif SC";
   margin: 0;
 }
 .article-entry .gist .gist-file .gist-data {
@@ -1059,7 +1069,7 @@ pre .php .xml {
   margin-left: 24px;
 }
 .layout-wrap-inner li:before {
-  content: '>';
+  content: ">";
   float: left;
   padding: 0 16px 0 0;
 }
@@ -1068,16 +1078,16 @@ pre .php .xml {
   color: #939393;
 }
 .layout-wrap-inner .category-list-count:before {
-  content: '(';
+  content: "(";
 }
 .layout-wrap-inner .category-list-count:after {
-  content: ')';
+  content: ")";
 }
 .tag-cloud a {
   margin-right: 8px;
 }
 .tag-cloud a:before {
-  content: '#';
+  content: "#";
 }
 .fancybox-skin {
   padding: 0 !important;
@@ -1089,5 +1099,5 @@ pre .php .xml {
   font-weight: 400;
   font-size: 16px;
   font-family: "Noto Serif", "Noto Serif SC", serif;
-  text-shadow: 1px 3px 3px rgba(0,0,0,0.5);
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
 }
