@@ -64,11 +64,11 @@ td {
   font-family: inherit;
   font-size: 100%;
   vertical-align: baseline;
+  background-color: #f5f5f0;
 }
 body {
   line-height: 1;
   color: #000;
-  background: #fff;
 }
 ol,
 ul {
@@ -113,7 +113,7 @@ body,
   height: 100%;
 }
 body {
-  background: #fff;
+  background-color: #f5f5f0;
   font: 16px "Noto Serif", "Noto Serif SC", serif;
   -webkit-text-size-adjust: 100%;
 }
@@ -182,7 +182,7 @@ a.article-title,
 .article-entry .gist .gist-file .gist-meta a,
 .layout-wrap-inner .category-list a,
 .tag-cloud a {
-  color: #111;
+  color: #303030;
   text-decoration: none;
   border-bottom: 1px dotted transparent;
 }
@@ -382,7 +382,7 @@ a.article-title:hover,
   float: left;
   font-size: 14px;
   background: none;
-  color: #111;
+  color: #303030;
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -454,7 +454,7 @@ a.article-title:hover,
   line-height: 1em;
 }
 .article-entry {
-  color: #111;
+  color: #303030;
   padding: 0;
 }
 .article-entry:before,
@@ -585,7 +585,7 @@ a.article-title:hover,
   text-decoration: none;
 }
 .article-footer a:hover {
-  color: #111;
+  color: #303030;
 }
 .article-tag-list-item {
   float: left;
@@ -617,7 +617,7 @@ a.article-title:hover,
   display: block;
 }
 .article-nav-link-wrap:hover {
-  color: #111;
+  color: #303030;
 }
 @media screen and (min-width: 840px) {
   .article-nav-link-wrap {
@@ -650,7 +650,6 @@ a.article-title:hover,
   margin-top: 0.5em;
 }
 .article-gallery {
-  background: #000;
   position: relative;
 }
 .article-gallery-photos {
@@ -788,7 +787,6 @@ a.article-title:hover,
 #page-nav .current {
   color: #fff;
   border-radius: 18px;
-  background-color: #000;
 }
 #page-nav .space {
   color: #ddd;
