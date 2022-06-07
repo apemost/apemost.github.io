@@ -72,8 +72,8 @@ body {
   line-height: 1;
   color: #000;
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   -webkit-text-size-adjust: 100%;
 }
 #container {
@@ -104,8 +104,8 @@ button {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 input::-moz-focus-inner,
 button::-moz-focus-inner {
@@ -117,13 +117,13 @@ button::-moz-focus-inner {
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url("fonts/fontawesome-webfont.eot?v=#4.0.3");
-  src: url("fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3")
-      format("embedded-opentype"),
-    url("fonts/fontawesome-webfont.woff?v=#4.0.3") format("woff"),
-    url("fonts/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"),
-    url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3")
-      format("svg");
+  src: url('fonts/fontawesome-webfont.eot?v=#4.0.3');
+  src: url('fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3')
+      format('embedded-opentype'),
+    url('fonts/fontawesome-webfont.woff?v=#4.0.3') format('woff'),
+    url('fonts/fontawesome-webfont.ttf?v=#4.0.3') format('truetype'),
+    url('fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3')
+      format('svg');
 }
 .outer {
   max-width: 800px;
@@ -131,7 +131,7 @@ button::-moz-focus-inner {
 }
 .outer:before,
 .outer:after {
-  content: "";
+  content: '';
   display: table;
 }
 .outer:after {
@@ -156,7 +156,7 @@ button::-moz-focus-inner {
 .logo {
   width: 94px;
   height: 57px;
-  background-image: url("images/logo.png");
+  background-image: url('images/logo.png');
   -webkit-background-size: 74px 28px;
   -moz-background-size: 74px 28px;
   background-size: 74px 28px;
@@ -335,7 +335,7 @@ a.article-title:hover,
   font-family: FontAwesome;
 }
 #main-nav-toggle:before {
-  content: "\f0c9";
+  content: '\f0c9';
 }
 @media screen and (max-width: 839px) {
   #main-nav-toggle {
@@ -374,7 +374,7 @@ a.article-title:hover,
 }
 .search-form:before,
 .search-form:after {
-  content: "";
+  content: '';
   display: table;
 }
 .search-form:after {
@@ -416,7 +416,7 @@ a.article-title:hover,
 }
 .article-meta:before,
 .article-meta:after {
-  content: "";
+  content: '';
   display: table;
 }
 .article-meta:after {
@@ -434,9 +434,6 @@ a.article-title:hover,
   margin-left: 8px;
   color: #939393;
 }
-.article-category:before {
-  content: "\2022";
-}
 .article-category span {
   margin-left: 8px;
 }
@@ -449,7 +446,7 @@ a.article-title:hover,
   color: #939393;
 }
 .article-comment-link-wrap:before {
-  content: "\2022";
+  content: '\2022';
 }
 .article-comment-link {
   margin-left: 8px;
@@ -468,7 +465,7 @@ a.article-title:hover,
 }
 .article-entry:before,
 .article-entry:after {
-  content: "";
+  content: '';
   display: table;
 }
 .article-entry:after {
@@ -521,8 +518,8 @@ a.article-title:hover,
   padding: 10px 0;
 }
 .article-entry blockquote {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   font-size: 1.4em;
   margin: 1.4em 20px;
   text-align: center;
@@ -533,7 +530,7 @@ a.article-title:hover,
   font-family: font-sans;
 }
 .article-entry blockquote footer cite:before {
-  content: "—";
+  content: '—';
   padding: 0 0.5em;
 }
 .article-entry .pullquote {
@@ -585,7 +582,7 @@ a.article-title:hover,
 }
 .article-footer:before,
 .article-footer:after {
-  content: "";
+  content: '';
   display: table;
 }
 .article-footer:after {
@@ -603,7 +600,7 @@ a.article-title:hover,
   margin-right: 10px;
 }
 .article-tag-list-link:before {
-  content: "#";
+  content: '#';
 }
 #article-nav {
   position: relative;
@@ -611,7 +608,7 @@ a.article-title:hover,
 }
 #article-nav:before,
 #article-nav:after {
-  content: "";
+  content: '';
   display: table;
 }
 #article-nav:after {
@@ -726,7 +723,7 @@ a.article-title:hover,
 }
 .archives:before,
 .archives:after {
-  content: "";
+  content: '';
   display: table;
 }
 .archives:after {
@@ -768,7 +765,7 @@ a.article-title:hover,
 }
 #page-nav:before,
 #page-nav:after {
-  content: "";
+  content: '';
   display: table;
 }
 #page-nav:after {
@@ -871,7 +868,7 @@ a.article-title:hover,
 }
 .article-entry .highlight figcaption:before,
 .article-entry .highlight figcaption:after {
-  content: "";
+  content: '';
   display: table;
 }
 .article-entry .highlight figcaption:after {
@@ -1062,7 +1059,7 @@ pre .php .xml {
 .layout-wrap-inner .category-list-child:before,
 .layout-wrap-inner .category-list:after,
 .layout-wrap-inner .category-list-child:after {
-  content: "";
+  content: '';
   display: table;
 }
 .layout-wrap-inner .category-list:after,
@@ -1081,14 +1078,14 @@ pre .php .xml {
   color: #939393;
 }
 .layout-wrap-inner .category-list-count:before {
-  content: "(";
+  content: '(';
 }
 .layout-wrap-inner .category-list-count:after {
-  content: ")";
+  content: ')';
 }
 .tag-cloud:before,
 .tag-cloud:after {
-  content: "";
+  content: '';
   display: table;
 }
 .tag-cloud:after {
@@ -1110,19 +1107,19 @@ pre .php .xml {
   margin-right: 8px;
 }
 .tag-cloud a:before {
-  content: "#";
+  content: '#';
 }
 .fancybox-skin {
   padding: 0 !important;
   border-radius: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 .fancybox-skin .fancybox-title .child {
   background: none;
   font-weight: 400;
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
 }

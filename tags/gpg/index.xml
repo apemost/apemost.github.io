@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gpg on Andrew's Blog</title><link>https://apemost.com/tags/gpg/</link><description>Recent content in gpg on Andrew's Blog</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 21 Mar 2020 13:09:44 +0800</lastBuildDate><atom:link href="https://apemost.com/tags/gpg/index.xml" rel="self" type="application/rss+xml"/><item><title>程序员的远程办公解决方案</title><link>https://apemost.com/articles/2020/03/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%BF%9C%E7%A8%8B%E5%8A%9E%E5%85%AC%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link><pubDate>Sat, 21 Mar 2020 13:09:44 +0800</pubDate><guid>https://apemost.com/articles/2020/03/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%BF%9C%E7%A8%8B%E5%8A%9E%E5%85%AC%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid><description>近期新型冠狀病毒影响了大家的生活和工作，这篇博文将教大家怎么以正确的姿势开启远程办公。
-开始 由于我的 Linux 主机在公司，手头上的 MBP 性能又不太行，在家办公的时候，就需要远程到公司的主机上。为了解决这个需求，开始 Hack。
-配置 frps 在公网主机上创建目录及 frps.ini 配置文件
-mkdir -p /opt/data/docker/snowdreamtech/frps touch /opt/data/docker/snowdreamtech/frps/frps.ini 编辑 frps.ini
-[common] bind_port = 17000 token = yourtoken 运行 frps 容器
-docker run -d \ --name frps \ --restart always \ --network host \ -v /opt/data/docker/snowdreamtech/frps:/etc/frp \ snowdreamtech/frps:0.31.1 配置 frpc 在内网主机上创建目录及 frpc.ini 配置文件
-mkdir -p /opt/data/docker/snowdreamtech/frpc touch /opt/data/docker/snowdreamtech/frpc/frpc.ini 编辑 frpc.ini
-[common] # 修改成你的公网域名或 IP server_addr = jump.</description></item></channel></rss>
